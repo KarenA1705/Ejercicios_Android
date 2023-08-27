@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projeto045</string>
+    <string name="programador">Desenvolvedor: Karen Montaño</string>
+    <string name="version_aplicacion">1</string>
+    <string name="finalizar">Terminar programa</string>
+    <string name="radiosuma">adicionar</string>
+    <string name="radioresta">subtrair</string>
+    <string name="botonoperacion">resolver</string>
+
+</resources>

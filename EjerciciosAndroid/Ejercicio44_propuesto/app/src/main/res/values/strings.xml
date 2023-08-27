@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">APP PRUEBA</string>
+    <string name="opcion_1">Opcion 1</string>
+    <string name="opcion_2">Opcion 2</string>
+    <string name="opcion_3">Opcion 3</string>
+
+    <string name="mensaje_1">Se selecciono la primera opcion</string>
+    <string name="mensaje_2">Se selecciono la segunda opcion</string>
+    <string name="mensaje_3">Se selecciono la tercera opcion</string>
+
+</resources>

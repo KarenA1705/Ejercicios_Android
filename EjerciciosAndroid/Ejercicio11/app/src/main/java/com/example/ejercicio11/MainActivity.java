@@ -1,0 +1,30 @@
+package com.example.ejercicio11;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+public class MainActivity extends AppCompatActivity {
+
+    private EditText et1;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        et1 = findViewById(R.id.et1);
+        SharedPreferences prefe = getSharedPreferences("datos", Context.MODE_PRIVATE);
+        et1.setText(prefe.getString("email",""));
+    }
+    public void ejecutar(View view)
+    {
+        SharedPreferences preferencias = getSharedPreferences("datos",Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferencias.edit();
+        editor.putString("email",et1.getText().toString());
+        editor.commit();
+        finish();
+    }
+}
