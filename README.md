@@ -6,7 +6,7 @@ Este repositorio contiene una serie de ejercicios realizados durante el semiller
 ### 2. Ejercicios Realizados
 * Se encuentran una variedad de ejercicios en Android Studio que incluyen desde lo mas simple de Android hasta ejercicios un poco mas complejos.
 ### Instrucciones de Uso
-* **Clonar el Repositorio:** git clone https://github.com/tu_usuario/nombre-repositorio.git
+* **Clonar el Repositorio:** git clone https://github.com/KarenA1705/Android.git
 ### Abrir en Android Studio:
 * Abra Android Studio y seleccione "Open Project". Navegue hasta el directorio del proyecto clonado y selecciónelo.
 ### Compilar y Ejecutar:
